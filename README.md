@@ -4,7 +4,7 @@ Just code problems from LeetCode.
 
 ## About CLAUDE.md
 
-The [`CLAUDE.md`](./claude.md) file configures Claude as a **test writer**.
+The [`CLAUDE.md`](./CLAUDE.md) file configures Claude as a **test writer**.
 
 ## whoami
 
