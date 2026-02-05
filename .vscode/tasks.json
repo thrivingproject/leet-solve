@@ -1,0 +1,55 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ensure bin dir",
+      "type": "shell",
+      "command": "mkdir",
+      "args": [
+        "-p",
+        "${workspaceFolder}/bin"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    {
+      "label": "gcc build",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "-g",
+        "${workspaceFolder}/src/${fileBasename}",
+        "-o",
+        "${workspaceFolder}/bin/${fileBasenameNoExtension}"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+      },
+      "dependsOn": [
+        "ensure bin dir"
+      ]
+    },
+    {
+      "label": "g++ build",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "${workspaceFolder}/src/${fileBasename}",
+        "-o",
+        "${workspaceFolder}/bin/${fileBasenameNoExtension}"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": "build",
+      "dependsOn": [
+        "ensure bin dir"
+      ]
+    }
+  ]
+}

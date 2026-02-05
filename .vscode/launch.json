@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Launch C",
+      "program": "${workspaceFolder}/bin/${fileBasenameNoExtension}",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "gcc build"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Launch C++",
+      "program": "${workspaceFolder}/bin/${fileBasenameNoExtension}",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "g++ build"
+    }
+  ]
+}
