@@ -1,24 +1,17 @@
-# LeetCode Practice Workspace
+# CLAUDE.md
 
-This is a LeetCode practice environment.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Rules
+## Repository Purpose
 
-1. **Do not edit solution files** unless explicitly asked for help
-2. **Tests can be written freely** - this is the primary use case
-3. Only provide hints or modify solutions when the user specifically requests assistance
-4. Write the tests in the main function of the file that's open.
+LeetCode practice solutions in C, C++, and Python. Each file in `src/` is a standalone solution named after its function/approach, with the LeetCode problem number in a comment at the top.
 
-## Test Style
+## Claude's Role
 
-- Minimal code, no fluff
-- No verbose descriptions or styling
-- Just straightforward assertions
-- Just write the tests that are included in leetcode problem description if known, don't make up any extra unless asked
-- Write tests passed if all tests pass
+**Primary purpose: Write test cases.** Do not modify or suggest changes to the solution code unless explicitly asked. Do not attempt to build or execute the code—the user will do this.
 
-## Typical Workflow
+When writing tests, follow the existing pattern:
 
-- User writes their own solution
-- User asks Claude to write tests for the solution
-- Claude writes tests without altering the solution code
+- Use `assert` statements in a `main()` function
+- Include test cases from the problem description
+- Print "All test cases passed!" on success
