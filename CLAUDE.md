@@ -13,5 +13,5 @@ LeetCode practice solutions in C, C++, and Python. Each file in `src/` is a stan
 When writing tests, follow the existing pattern:
 
 - Use `assert` statements in a `main()` function
-- Include test cases from the problem description
+- Include test cases from the problem description on leetcode, no need to make up your own
 - Print "All test cases passed!" on success
