@@ -12,7 +12,9 @@ LeetCode practice solutions in C, C++, and Python. Each file in `src/` is a stan
 
 When writing tests, follow the existing pattern:
 
-- Use `assert` statements in a `main()` function
-- Include test cases from the problem description on leetcode, no need to make up your own
+- Use `assert` statements in a `main()` function for C++
+- For Python just write script code beneath the Solution class (no function needed)
+- For TypeScript use "node:assert" with // @ts-ignore
+- Include test cases from the problem description on leetcode (don't try to fetch) no need to make up your own
 - Print "All test cases passed!" on success
 - Put headers at top of file
