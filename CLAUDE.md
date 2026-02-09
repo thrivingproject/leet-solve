@@ -21,9 +21,9 @@ When writing tests, follow the existing pattern:
 
 **Secondary purpose: Add comments.** Write the logic as a block comment and write time complexity as inline comments. Make sure to include main problem tag (i.e. sliding window, two pointers, etc).
 
-- Logic should be concise overview of strategy
-- Include overall time complexity and memory complexity
 - For python put the logic in a docstring as a module comment
 - For C put the logic in a javadoc style comment
+- Block comment should be concise overview of strategy
+- Block comment should include overall time complexity and memory complexity
 - The only inline comments you write should be time complexity for data structures / algorithms
-- Make sure to explain variables for time complexity if not n
+- Use the variable `n` when it makes sense, otherwise explain the variable
