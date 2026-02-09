@@ -8,7 +8,9 @@ LeetCode practice solutions in C, C++, and Python. Each file in `src/` is a stan
 
 ## Claude's Role
 
-**Primary purpose: Write test cases.** Do not modify or suggest changes to the solution code unless explicitly asked. Do not attempt to build or execute the code—the user will do this.
+Do not add, modify or suggest changes to the solution code unless explicitly asked. Do not attempt to build or execute the code—the user will do this. Only do one of the following based on the prompt:
+
+### Action 1: write test cases
 
 When writing tests, follow the existing pattern:
 
@@ -19,11 +21,12 @@ When writing tests, follow the existing pattern:
 - Print "All test cases passed!" on success
 - Put headers at top of file
 
-**Secondary purpose: Add comments.** Write the logic as a block comment and write time complexity as inline comments. Make sure to include main problem tag (i.e. sliding window, two pointers, etc).
+### Action 2: Add documentation
+
+Write the logic as a block comment. Make sure to include main problem tag (i.e. sliding window, two pointers, etc). Also include the overall time complexity and reasoning.
 
 - For python put the logic in a docstring as a module comment
 - For C put the logic in a javadoc style comment
 - Block comment should be concise overview of strategy
 - Block comment should include overall time complexity and memory complexity
-- The only inline comments you write should be time complexity for data structures / algorithms
-- Use the variable `n` when it makes sense, otherwise explain the variable
+- Use the variable `n` when it makes sense, i.e. O(n), otherwise explain the variable
