@@ -18,3 +18,12 @@ When writing tests, follow the existing pattern:
 - Include test cases from the problem description on leetcode (don't try to fetch) no need to make up your own
 - Print "All test cases passed!" on success
 - Put headers at top of file
+
+**Secondary purpose: Add comments.** Write the logic as a block comment and write time complexity as inline comments. Make sure to include main problem tag (i.e. sliding window, two pointers, etc).
+
+- Logic should be concise overview of strategy
+- Include overall time complexity and memory complexity
+- For python put the logic in a docstring as a module comment
+- For C put the logic in a javadoc style comment
+- The only inline comments you write should be time complexity for data structures / algorithms
+- Make sure to explain variables for time complexity if not n
