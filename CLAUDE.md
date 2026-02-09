@@ -30,3 +30,4 @@ Write the logic as a block comment. Make sure to include main problem tag (i.e. 
 - Block comment should be concise overview of strategy
 - Block comment should include overall time complexity and memory complexity
 - Use the variable `n` when it makes sense, i.e. O(n), otherwise explain the variable
+- Don't try to fetch anything
