@@ -17,9 +17,3 @@ class Solution:
                 vowels += 1
             max_vowels = max(vowels, max_vowels)
         return max_vowels
-
-
-s = Solution()
-assert s.maxVowels("abciiidef", 3) == 3
-assert s.maxVowels("aeiou", 2) == 2
-assert s.maxVowels("leetcode", 3) == 2

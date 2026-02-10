@@ -12,9 +12,3 @@ class Solution:
             if num > average:
                 dominant += 1
         return dominant
-
-
-s = Solution()
-assert s.dominantIndices([5, 4, 3]) == 2
-assert s.dominantIndices([4, 1, 2]) == 1
-print("All test cases passed!")

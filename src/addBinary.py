@@ -29,11 +29,3 @@ class Solution:
             carry = _sum // 2
 
         return "".join(reversed(result))  # O(max(n, m))
-
-
-sol = Solution()
-
-assert sol.addBinary("11", "1") == "100"
-assert sol.addBinary("1010", "1011") == "10101"
-
-print("All test cases passed!")

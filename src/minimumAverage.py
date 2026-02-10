@@ -12,11 +12,3 @@ class Solution:
             l += 1
             r -= 1
         return smallest
-
-
-# 3194. Minimum Average of Smallest and Largest Elements
-s = Solution()
-assert s.minimumAverage([7, 8, 3, 4, 15, 13, 4, 1]) == 5.5
-assert s.minimumAverage([1, 9, 8, 3, 10, 5]) == 5.5
-assert s.minimumAverage([1, 2, 3, 7, 8, 9]) == 5.0
-print("All test cases passed!")

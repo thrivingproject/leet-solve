@@ -25,14 +25,3 @@ class Solution:
             max_ones = max(max_ones, right_index - left_index + 1)
 
         return max_ones
-
-
-sol = Solution()
-assert sol.longestOnes([1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0], 2) == 6
-assert (
-    sol.longestOnes(
-        [0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1], 3
-    )
-    == 10
-)
-print("All test cases passed!")

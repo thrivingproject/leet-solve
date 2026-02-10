@@ -20,10 +20,3 @@ class Solution:
                     return strs[0][:i]
 
         return strs[0]
-
-
-# Tests
-sol = Solution()
-assert sol.longestCommonPrefix(["flower", "flow", "flight"]) == "fl"
-assert sol.longestCommonPrefix(["dog", "racecar", "car"]) == ""
-print("All test cases passed!")

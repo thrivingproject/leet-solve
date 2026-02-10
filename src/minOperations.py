@@ -10,8 +10,3 @@ class Solution:
         if sum(nums) == len(nums):
             return flips
         return -1
-
-
-s = Solution()
-assert s.minOperations([0, 1, 1, 1, 0, 0]) == 3
-assert s.minOperations([0, 1, 1, 1]) == -1

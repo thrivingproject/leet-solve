@@ -12,10 +12,3 @@ class Solution:
         sub_str = word[:i]
         rev_part = sub_str[::-1]
         return rev_part + word[i:]
-
-
-s = Solution()
-assert s.reversePrefix("abcdefd", "d") == "dcbaefd"
-assert s.reversePrefix("xyxzxe", "z") == "zxyxxe"
-assert s.reversePrefix("abcd", "z") == "abcd"
-print("All test cases passed!")

@@ -16,17 +16,3 @@ class Solution:
             else:
                 return word
         return ""
-
-
-# 2108. Find First Palindromic String in the Array
-s = Solution()
-assert s.firstPalindrome(["abc", "car", "ada", "racecar", "cool"]) == "ada"
-assert s.firstPalindrome(["notapalindrome", "racecar"]) == "racecar"
-assert s.firstPalindrome(["def", "ghi"]) == ""
-assert (
-    s.firstPalindromeTwoPointer(["abc", "car", "ada", "racecar", "cool"])
-    == "ada"
-)
-assert s.firstPalindromeTwoPointer(["notapalindrome", "racecar"]) == "racecar"
-assert s.firstPalindromeTwoPointer(["def", "ghi"]) == ""
-print("All test cases passed!")

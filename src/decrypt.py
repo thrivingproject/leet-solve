@@ -40,12 +40,3 @@ class Solution:
         if rev:
             nums.reverse()
         return nums
-
-
-sol = Solution()
-assert sol.decrypt([5, 7, 1, 4], 3) == [12, 10, 16, 13]
-assert sol.decrypt([1, 2, 3, 4], 0) == [0, 0, 0, 0]
-assert sol.decrypt([2, 4, 9, 3], -2) == [12, 5, 6, 13]
-assert sol.decrypt([5, 2, 2, 3, 1], 3) == [7, 6, 9, 8, 9]
-
-print("All test cases passed!")

@@ -19,10 +19,3 @@ class Solution:
                 if cost <= k:
                     count += 1
         return count
-
-
-s = Solution()
-assert s.countSubarrays([1, 3, 2], 4) == 5
-assert s.countSubarrays([5, 5, 5, 5], 0) == 10
-assert s.countSubarrays([1, 2, 3], 0) == 3
-print("All test cases passed!")

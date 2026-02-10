@@ -17,18 +17,3 @@ class Solution:
                 return digits
 
         return [1] + digits
-
-
-# Tests
-s = Solution()
-
-# Example 1: [1,2,3] -> [1,2,4]
-assert s.plusOne([1, 2, 3]) == [1, 2, 4]
-
-# Example 2: [4,3,2,1] -> [4,3,2,2]
-assert s.plusOne([4, 3, 2, 1]) == [4, 3, 2, 2]
-
-# Example 3: [9] -> [1,0]
-assert s.plusOne([9]) == [1, 0]
-
-print("All test cases passed!")

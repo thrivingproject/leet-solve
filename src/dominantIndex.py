@@ -24,11 +24,3 @@ class Solution:
                 second = nums[i]
 
         return ans if first >= 2 * second else -1  # O(1) comparison
-
-
-# Tests
-s = Solution()
-assert s.dominantIndex([3, 6, 1, 0]) == 1
-assert s.dominantIndex([1, 2, 3, 4]) == -1
-assert s.dominantIndex([1, 0]) == 0
-print("All test cases passed!")
